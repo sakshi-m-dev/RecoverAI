@@ -1,0 +1,1352 @@
+[
+    {
+        "id": "Gi65wZbhA3",
+        "customer_name": "Tanvi Desai",
+        "customer_email": "tanvi.desai81@example.com",
+        "amount": 710,
+        "failure_reason_raw": "card_declined_bank",
+        "status": "at_risk",
+        "created_at": "2026-08-24T22:42:14.742Z"
+    },
+    {
+        "id": "p-2RuNvG9y",
+        "customer_name": "Aditya Rao",
+        "customer_email": "aditya.rao79@example.com",
+        "amount": 990,
+        "failure_reason_raw": "expired_card",
+        "status": "at_risk",
+        "created_at": "2026-08-26T00:44:45.180Z"
+    },
+    {
+        "id": "RxF0S7SRK_",
+        "customer_name": "Rahul Menon",
+        "customer_email": "rahul.menon61@example.com",
+        "amount": 640,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-26T00:26:04.642Z"
+    },
+    {
+        "id": "NHAT5pmJsv",
+        "customer_name": "Rahul Chatterjee",
+        "customer_email": "rahul.chatterjee87@example.com",
+        "amount": 880,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-23T12:23:44.438Z"
+    },
+    {
+        "id": "Ndvvua1GOU",
+        "customer_name": "Isha Desai",
+        "customer_email": "isha.desai30@example.com",
+        "amount": 2100,
+        "failure_reason_raw": "card_declined_bank",
+        "status": "at_risk",
+        "created_at": "2026-08-26T01:18:54.513Z"
+    },
+    {
+        "id": "bmivvlopHB",
+        "customer_name": "Nisha Desai",
+        "customer_email": "nisha.desai68@example.com",
+        "amount": 3160,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-26T02:08:34.821Z"
+    },
+    {
+        "id": "FxFwafbtOD",
+        "customer_name": "Ananya Gupta",
+        "customer_email": "ananya.gupta68@example.com",
+        "amount": 1930,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-23T17:32:14.684Z"
+    },
+    {
+        "id": "MsHzQbTSll",
+        "customer_name": "Yash Reddy",
+        "customer_email": "yash.reddy73@example.com",
+        "amount": 2740,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-26T12:05:44.657Z"
+    },
+    {
+        "id": "rhtO-nUgD0",
+        "customer_name": "Nikhil Patel",
+        "customer_email": "nikhil.patel7@example.com",
+        "amount": 200,
+        "failure_reason_raw": "card_declined_bank",
+        "status": "at_risk",
+        "created_at": "2026-08-23T21:29:57.455Z"
+    },
+    {
+        "id": "FXSusJ6yZS",
+        "customer_name": "Pooja Reddy",
+        "customer_email": "pooja.reddy18@example.com",
+        "amount": 2120,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-25T18:09:58.163Z"
+    },
+    {
+        "id": "4pg27og8iG",
+        "customer_name": "Divya Patel",
+        "customer_email": "divya.patel0@example.com",
+        "amount": 730,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-26T10:34:08.110Z"
+    },
+    {
+        "id": "lDez5RBPb1",
+        "customer_name": "Divya Patel",
+        "customer_email": "divya.patel10@example.com",
+        "amount": 3020,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-26T06:20:37.059Z"
+    },
+    {
+        "id": "6fo5vVnhwl",
+        "customer_name": "Simran Iyer",
+        "customer_email": "simran.iyer72@example.com",
+        "amount": 420,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-23T21:56:09.154Z"
+    },
+    {
+        "id": "f-7KNsRZ1a",
+        "customer_name": "Yash Sharma",
+        "customer_email": "yash.sharma53@example.com",
+        "amount": 2830,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-26T10:29:45.695Z"
+    },
+    {
+        "id": "mfJZtJ46VR",
+        "customer_name": "Sameer Reddy",
+        "customer_email": "sameer.reddy84@example.com",
+        "amount": 4750,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-24T15:34:26.165Z"
+    },
+    {
+        "id": "iS4CqQq3WI",
+        "customer_name": "Aryan Pillai",
+        "customer_email": "aryan.pillai35@example.com",
+        "amount": 910,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-23T08:23:15.405Z"
+    },
+    {
+        "id": "-E8TZ4mGod",
+        "customer_name": "Priya Bose",
+        "customer_email": "priya.bose88@example.com",
+        "amount": 420,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-23T21:37:50.836Z"
+    },
+    {
+        "id": "4o0XfMVk-r",
+        "customer_name": "Rohan Pillai",
+        "customer_email": "rohan.pillai38@example.com",
+        "amount": 580,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-24T08:15:43.139Z"
+    },
+    {
+        "id": "XZhmiVIA_u",
+        "customer_name": "Yash Chatterjee",
+        "customer_email": "yash.chatterjee10@example.com",
+        "amount": 630,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-24T20:08:44.228Z"
+    },
+    {
+        "id": "5_kfI-QMwJ",
+        "customer_name": "Manav Chatterjee",
+        "customer_email": "manav.chatterjee35@example.com",
+        "amount": 670,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-23T08:37:05.852Z"
+    },
+    {
+        "id": "VPx3VYJvDO",
+        "customer_name": "Anjali Reddy",
+        "customer_email": "anjali.reddy0@example.com",
+        "amount": 390,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-24T15:04:55.103Z"
+    },
+    {
+        "id": "U086CdArkQ",
+        "customer_name": "Meera Nair",
+        "customer_email": "meera.nair62@example.com",
+        "amount": 3040,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-24T05:28:35.513Z"
+    },
+    {
+        "id": "5nerWykiRP",
+        "customer_name": "Neha Desai",
+        "customer_email": "neha.desai86@example.com",
+        "amount": 690,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-24T19:04:56.253Z"
+    },
+    {
+        "id": "Lue8swp-zE",
+        "customer_name": "Neha Reddy",
+        "customer_email": "neha.reddy47@example.com",
+        "amount": 1730,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-25T09:31:24.053Z"
+    },
+    {
+        "id": "kKYNRxLQpg",
+        "customer_name": "Kavya Iyer",
+        "customer_email": "kavya.iyer65@example.com",
+        "amount": 1050,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-26T05:29:14.976Z"
+    },
+    {
+        "id": "VxTDUCOJ0w",
+        "customer_name": "Riya Menon",
+        "customer_email": "riya.menon78@example.com",
+        "amount": 7300,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-26T04:23:32.260Z"
+    },
+    {
+        "id": "1qOLXy0jho",
+        "customer_name": "Karthik Iyer",
+        "customer_email": "karthik.iyer81@example.com",
+        "amount": 2520,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-23T05:33:36.143Z"
+    },
+    {
+        "id": "u6fP62nw84",
+        "customer_name": "Tanvi Menon",
+        "customer_email": "tanvi.menon49@example.com",
+        "amount": 3940,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-25T03:28:23.429Z"
+    },
+    {
+        "id": "e4_wXYV4Af",
+        "customer_name": "Neha Joshi",
+        "customer_email": "neha.joshi34@example.com",
+        "amount": 790,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-22T16:58:19.217Z"
+    },
+    {
+        "id": "jZu6aIAas2",
+        "customer_name": "Karthik Chatterjee",
+        "customer_email": "karthik.chatterjee28@example.com",
+        "amount": 3130,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-26T10:19:46.664Z"
+    },
+    {
+        "id": "tZiscKvGK2",
+        "customer_name": "Neha Chatterjee",
+        "customer_email": "neha.chatterjee88@example.com",
+        "amount": 230,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-24T20:11:27.442Z"
+    },
+    {
+        "id": "I0sOei54AK",
+        "customer_name": "Sneha Rao",
+        "customer_email": "sneha.rao27@example.com",
+        "amount": 2030,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-26T09:31:23.923Z"
+    },
+    {
+        "id": "lenypTWbH-",
+        "customer_name": "Arjun Reddy",
+        "customer_email": "arjun.reddy78@example.com",
+        "amount": 6860,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-24T23:50:03.900Z"
+    },
+    {
+        "id": "WlOLvDA1kw",
+        "customer_name": "Manav Menon",
+        "customer_email": "manav.menon17@example.com",
+        "amount": 610,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-24T13:34:42.276Z"
+    },
+    {
+        "id": "V_OCXwOT8d",
+        "customer_name": "Pooja Patel",
+        "customer_email": "pooja.patel7@example.com",
+        "amount": 5690,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-24T02:44:38.497Z"
+    },
+    {
+        "id": "E2XFVvZYbo",
+        "customer_name": "Manav Verma",
+        "customer_email": "manav.verma81@example.com",
+        "amount": 740,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-24T19:23:56.229Z"
+    },
+    {
+        "id": "kpS5pveAmA",
+        "customer_name": "Nikhil Menon",
+        "customer_email": "nikhil.menon64@example.com",
+        "amount": 1600,
+        "failure_reason_raw": "card_declined_bank",
+        "status": "at_risk",
+        "created_at": "2026-08-24T11:33:04.261Z"
+    },
+    {
+        "id": "RbPvvZlJut",
+        "customer_name": "Dev Rao",
+        "customer_email": "dev.rao14@example.com",
+        "amount": 18390,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-23T18:18:52.723Z"
+    },
+    {
+        "id": "5eUjHy03Y5",
+        "customer_name": "Karthik Patel",
+        "customer_email": "karthik.patel19@example.com",
+        "amount": 1270,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-23T12:01:21.428Z"
+    },
+    {
+        "id": "tivgVA6jh-",
+        "customer_name": "Divya Joshi",
+        "customer_email": "divya.joshi72@example.com",
+        "amount": 16650,
+        "failure_reason_raw": "card_declined_bank",
+        "status": "at_risk",
+        "created_at": "2026-08-24T16:00:58.114Z"
+    },
+    {
+        "id": "UAaB8kKhaf",
+        "customer_name": "Rohan Gupta",
+        "customer_email": "rohan.gupta43@example.com",
+        "amount": 1200,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-24T17:02:09.957Z"
+    },
+    {
+        "id": "_5Azlc34gW",
+        "customer_name": "Kavya Joshi",
+        "customer_email": "kavya.joshi79@example.com",
+        "amount": 740,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-24T22:59:17.165Z"
+    },
+    {
+        "id": "AL_Nt-ObkH",
+        "customer_name": "Nikhil Verma",
+        "customer_email": "nikhil.verma85@example.com",
+        "amount": 1280,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-26T02:18:18.960Z"
+    },
+    {
+        "id": "JpUkQXuxmR",
+        "customer_name": "Kavya Patel",
+        "customer_email": "kavya.patel81@example.com",
+        "amount": 2220,
+        "failure_reason_raw": "expired_card",
+        "status": "at_risk",
+        "created_at": "2026-08-26T05:07:23.556Z"
+    },
+    {
+        "id": "isc4N_c4o3",
+        "customer_name": "Tanvi Rao",
+        "customer_email": "tanvi.rao68@example.com",
+        "amount": 1810,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-26T12:06:03.665Z"
+    },
+    {
+        "id": "nBIBoFCK5o",
+        "customer_name": "Sneha Verma",
+        "customer_email": "sneha.verma94@example.com",
+        "amount": 3270,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-24T14:17:52.604Z"
+    },
+    {
+        "id": "E01qM2dDG-",
+        "customer_name": "Pooja Joshi",
+        "customer_email": "pooja.joshi1@example.com",
+        "amount": 1540,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-24T03:11:28.046Z"
+    },
+    {
+        "id": "CmnQMH-Y0r",
+        "customer_name": "Arjun Menon",
+        "customer_email": "arjun.menon34@example.com",
+        "amount": 4490,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-23T15:17:06.483Z"
+    },
+    {
+        "id": "SntC985IUB",
+        "customer_name": "Ananya Verma",
+        "customer_email": "ananya.verma37@example.com",
+        "amount": 5110,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-24T23:15:17.111Z"
+    },
+    {
+        "id": "MV7Ol2EUDT",
+        "customer_name": "Rahul Pillai",
+        "customer_email": "rahul.pillai39@example.com",
+        "amount": 4740,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-26T05:15:21.587Z"
+    },
+    {
+        "id": "7ppAXS6EnK",
+        "customer_name": "Shreya Nair",
+        "customer_email": "shreya.nair77@example.com",
+        "amount": 1040,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-25T06:39:30.284Z"
+    },
+    {
+        "id": "9JV-GT9TjC",
+        "customer_name": "Shreya Kapoor",
+        "customer_email": "shreya.kapoor50@example.com",
+        "amount": 4600,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-25T19:31:43.408Z"
+    },
+    {
+        "id": "tZ42UzYXVV",
+        "customer_name": "Sameer Gupta",
+        "customer_email": "sameer.gupta84@example.com",
+        "amount": 660,
+        "failure_reason_raw": "duplicate_attempt",
+        "status": "at_risk",
+        "created_at": "2026-08-26T15:03:29.579Z"
+    },
+    {
+        "id": "3sa_0L0HFw",
+        "customer_name": "Nisha Pillai",
+        "customer_email": "nisha.pillai87@example.com",
+        "amount": 1970,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-23T15:11:55.160Z"
+    },
+    {
+        "id": "uzHUPFNifC",
+        "customer_name": "Varun Iyer",
+        "customer_email": "varun.iyer30@example.com",
+        "amount": 370,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-23T20:08:49.853Z"
+    },
+    {
+        "id": "uV0aKb5nW6",
+        "customer_name": "Aarav Menon",
+        "customer_email": "aarav.menon31@example.com",
+        "amount": 1180,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-22T17:51:24.254Z"
+    },
+    {
+        "id": "bsPHvWUmGF",
+        "customer_name": "Ananya Gupta",
+        "customer_email": "ananya.gupta97@example.com",
+        "amount": 7760,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-24T07:21:50.271Z"
+    },
+    {
+        "id": "FZXxDqPuaZ",
+        "customer_name": "Rohan Menon",
+        "customer_email": "rohan.menon99@example.com",
+        "amount": 2490,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-25T04:55:03.886Z"
+    },
+    {
+        "id": "4DPQvchKne",
+        "customer_name": "Vikram Kapoor",
+        "customer_email": "vikram.kapoor33@example.com",
+        "amount": 2250,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-22T17:15:24.626Z"
+    },
+    {
+        "id": "exBCcVcfoi",
+        "customer_name": "Dev Reddy",
+        "customer_email": "dev.reddy67@example.com",
+        "amount": 7490,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-25T15:44:17.747Z"
+    },
+    {
+        "id": "kIhFKycxH_",
+        "customer_name": "Rohan Gupta",
+        "customer_email": "rohan.gupta94@example.com",
+        "amount": 980,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-23T03:52:47.138Z"
+    },
+    {
+        "id": "9vHUBjNX5Q",
+        "customer_name": "Sneha Sharma",
+        "customer_email": "sneha.sharma73@example.com",
+        "amount": 1330,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-23T22:51:53.694Z"
+    },
+    {
+        "id": "i4n5jHa4Dy",
+        "customer_name": "Sneha Chatterjee",
+        "customer_email": "sneha.chatterjee0@example.com",
+        "amount": 820,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-26T02:42:16.168Z"
+    },
+    {
+        "id": "bMoo04f9lG",
+        "customer_name": "Sameer Reddy",
+        "customer_email": "sameer.reddy97@example.com",
+        "amount": 340,
+        "failure_reason_raw": "card_declined_bank",
+        "status": "at_risk",
+        "created_at": "2026-08-26T06:23:33.395Z"
+    },
+    {
+        "id": "f9pkhcZ96w",
+        "customer_name": "Kavya Pillai",
+        "customer_email": "kavya.pillai43@example.com",
+        "amount": 8670,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-25T05:08:58.174Z"
+    },
+    {
+        "id": "gVWTdm4uVC",
+        "customer_name": "Meera Pillai",
+        "customer_email": "meera.pillai2@example.com",
+        "amount": 250,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-23T17:24:02.625Z"
+    },
+    {
+        "id": "L8HTcsIr-V",
+        "customer_name": "Isha Verma",
+        "customer_email": "isha.verma42@example.com",
+        "amount": 710,
+        "failure_reason_raw": "card_declined_bank",
+        "status": "at_risk",
+        "created_at": "2026-08-25T23:04:33.463Z"
+    },
+    {
+        "id": "sBhQIH1ynZ",
+        "customer_name": "Karthik Desai",
+        "customer_email": "karthik.desai70@example.com",
+        "amount": 9660,
+        "failure_reason_raw": "card_declined_bank",
+        "status": "at_risk",
+        "created_at": "2026-08-23T16:27:02.694Z"
+    },
+    {
+        "id": "Rxr_awwa8x",
+        "customer_name": "Shreya Rao",
+        "customer_email": "shreya.rao97@example.com",
+        "amount": 620,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-25T03:28:52.945Z"
+    },
+    {
+        "id": "2Eg9QPI7ws",
+        "customer_name": "Vikram Nair",
+        "customer_email": "vikram.nair57@example.com",
+        "amount": 1890,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-23T15:00:37.978Z"
+    },
+    {
+        "id": "BvSoKax_Dk",
+        "customer_name": "Arjun Menon",
+        "customer_email": "arjun.menon24@example.com",
+        "amount": 1320,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-26T00:17:44.581Z"
+    },
+    {
+        "id": "IyZYULfWiO",
+        "customer_name": "Nisha Kapoor",
+        "customer_email": "nisha.kapoor94@example.com",
+        "amount": 3170,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-22T16:26:24.863Z"
+    },
+    {
+        "id": "PIgy5R0KKq",
+        "customer_name": "Nisha Patel",
+        "customer_email": "nisha.patel55@example.com",
+        "amount": 6150,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-24T19:42:43.411Z"
+    },
+    {
+        "id": "TZbWlJ6Dc3",
+        "customer_name": "Kavya Kapoor",
+        "customer_email": "kavya.kapoor35@example.com",
+        "amount": 3980,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-23T12:14:00.713Z"
+    },
+    {
+        "id": "5qX-oKO6kL",
+        "customer_name": "Anjali Verma",
+        "customer_email": "anjali.verma22@example.com",
+        "amount": 660,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-24T02:59:02.727Z"
+    },
+    {
+        "id": "WOTjH_fHSG",
+        "customer_name": "Shreya Joshi",
+        "customer_email": "shreya.joshi71@example.com",
+        "amount": 3560,
+        "failure_reason_raw": "card_declined_bank",
+        "status": "at_risk",
+        "created_at": "2026-08-25T16:15:35.998Z"
+    },
+    {
+        "id": "ANSu3wh2o9",
+        "customer_name": "Aditya Gupta",
+        "customer_email": "aditya.gupta46@example.com",
+        "amount": 520,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-25T02:52:28.412Z"
+    },
+    {
+        "id": "B3YPuD3vBj",
+        "customer_name": "Vikram Sharma",
+        "customer_email": "vikram.sharma13@example.com",
+        "amount": 850,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-22T20:45:42.508Z"
+    },
+    {
+        "id": "lrRpEkWSKl",
+        "customer_name": "Aarav Desai",
+        "customer_email": "aarav.desai93@example.com",
+        "amount": 670,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-25T10:06:56.914Z"
+    },
+    {
+        "id": "9N4g7ZDJnA",
+        "customer_name": "Anjali Iyer",
+        "customer_email": "anjali.iyer42@example.com",
+        "amount": 500,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-26T07:06:55.951Z"
+    },
+    {
+        "id": "ApyTwDzuzR",
+        "customer_name": "Shreya Bose",
+        "customer_email": "shreya.bose29@example.com",
+        "amount": 1670,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-22T19:21:39.195Z"
+    },
+    {
+        "id": "y03OMs9pWh",
+        "customer_name": "Simran Iyer",
+        "customer_email": "simran.iyer62@example.com",
+        "amount": 15920,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-23T06:45:08.302Z"
+    },
+    {
+        "id": "tq8oocukJl",
+        "customer_name": "Karthik Nair",
+        "customer_email": "karthik.nair59@example.com",
+        "amount": 5670,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-23T03:25:05.211Z"
+    },
+    {
+        "id": "-XNnQe3H4S",
+        "customer_name": "Rahul Nair",
+        "customer_email": "rahul.nair61@example.com",
+        "amount": 2170,
+        "failure_reason_raw": "duplicate_attempt",
+        "status": "at_risk",
+        "created_at": "2026-08-23T15:39:25.238Z"
+    },
+    {
+        "id": "c6Scs8z1UX",
+        "customer_name": "Nikhil Rao",
+        "customer_email": "nikhil.rao76@example.com",
+        "amount": 680,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-22T16:26:21.055Z"
+    },
+    {
+        "id": "NRNNFFU5KL",
+        "customer_name": "Pooja Bose",
+        "customer_email": "pooja.bose91@example.com",
+        "amount": 220,
+        "failure_reason_raw": "duplicate_attempt",
+        "status": "at_risk",
+        "created_at": "2026-08-25T16:34:40.882Z"
+    },
+    {
+        "id": "CbROCKzQSz",
+        "customer_name": "Tanvi Joshi",
+        "customer_email": "tanvi.joshi21@example.com",
+        "amount": 1130,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-23T07:32:25.448Z"
+    },
+    {
+        "id": "drCQyBnglm",
+        "customer_name": "Aditya Nair",
+        "customer_email": "aditya.nair86@example.com",
+        "amount": 490,
+        "failure_reason_raw": "card_declined_bank",
+        "status": "at_risk",
+        "created_at": "2026-08-22T22:13:14.060Z"
+    },
+    {
+        "id": "yQOD_cLpOK",
+        "customer_name": "Karthik Bose",
+        "customer_email": "karthik.bose51@example.com",
+        "amount": 21050,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-22T18:12:07.494Z"
+    },
+    {
+        "id": "0C489MRErV",
+        "customer_name": "Simran Kapoor",
+        "customer_email": "simran.kapoor64@example.com",
+        "amount": 2440,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-23T10:19:11.109Z"
+    },
+    {
+        "id": "tQZ2ztFUEH",
+        "customer_name": "Vikram Kapoor",
+        "customer_email": "vikram.kapoor35@example.com",
+        "amount": 570,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-22T17:23:45.168Z"
+    },
+    {
+        "id": "eqY1qJ6hvt",
+        "customer_name": "Sneha Nair",
+        "customer_email": "sneha.nair93@example.com",
+        "amount": 1890,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-25T22:22:47.076Z"
+    },
+    {
+        "id": "fY4NzgO9h7",
+        "customer_name": "Aditya Iyer",
+        "customer_email": "aditya.iyer50@example.com",
+        "amount": 8040,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-24T07:53:28.499Z"
+    },
+    {
+        "id": "IjpVAgAKjG",
+        "customer_name": "Rohan Chatterjee",
+        "customer_email": "rohan.chatterjee43@example.com",
+        "amount": 3770,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-23T16:41:12.366Z"
+    },
+    {
+        "id": "TbtQRgc3Sj",
+        "customer_name": "Pooja Sharma",
+        "customer_email": "pooja.sharma24@example.com",
+        "amount": 3450,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-23T02:11:30.558Z"
+    },
+    {
+        "id": "JMDZ8uWJ7u",
+        "customer_name": "Riya Joshi",
+        "customer_email": "riya.joshi0@example.com",
+        "amount": 2240,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-22T16:02:15.888Z"
+    },
+    {
+        "id": "4YNe9-wUHq",
+        "customer_name": "Nisha Kapoor",
+        "customer_email": "nisha.kapoor56@example.com",
+        "amount": 2650,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-22T19:02:27.309Z"
+    },
+    {
+        "id": "vQP8s2T0tv",
+        "customer_name": "Aditya Gupta",
+        "customer_email": "aditya.gupta44@example.com",
+        "amount": 4230,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-25T14:33:45.516Z"
+    },
+    {
+        "id": "DUZZjRqH4p",
+        "customer_name": "Dev Sharma",
+        "customer_email": "dev.sharma24@example.com",
+        "amount": 1710,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-26T02:44:12.613Z"
+    },
+    {
+        "id": "k-khlUtOxC",
+        "customer_name": "Nikhil Gupta",
+        "customer_email": "nikhil.gupta75@example.com",
+        "amount": 1160,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-26T00:35:01.861Z"
+    },
+    {
+        "id": "pqJwJRGed-",
+        "customer_name": "Vikram Chatterjee",
+        "customer_email": "vikram.chatterjee10@example.com",
+        "amount": 3310,
+        "failure_reason_raw": "expired_card",
+        "status": "at_risk",
+        "created_at": "2026-08-26T14:21:49.205Z"
+    },
+    {
+        "id": "UpgU2aYT1b",
+        "customer_name": "Isha Menon",
+        "customer_email": "isha.menon84@example.com",
+        "amount": 19160,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-25T01:30:11.652Z"
+    },
+    {
+        "id": "vKGn-wD6X8",
+        "customer_name": "Aditya Pillai",
+        "customer_email": "aditya.pillai92@example.com",
+        "amount": 5660,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-25T19:57:37.518Z"
+    },
+    {
+        "id": "f7Hasmpxtw",
+        "customer_name": "Anjali Bose",
+        "customer_email": "anjali.bose6@example.com",
+        "amount": 570,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-23T15:02:10.557Z"
+    },
+    {
+        "id": "s_PvBPQUmt",
+        "customer_name": "Tanvi Kapoor",
+        "customer_email": "tanvi.kapoor74@example.com",
+        "amount": 19430,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-24T06:02:14.104Z"
+    },
+    {
+        "id": "LDMg7HIVW7",
+        "customer_name": "Varun Chatterjee",
+        "customer_email": "varun.chatterjee42@example.com",
+        "amount": 580,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-25T21:54:45.827Z"
+    },
+    {
+        "id": "5kh0VXFMJh",
+        "customer_name": "Manav Menon",
+        "customer_email": "manav.menon7@example.com",
+        "amount": 12550,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-23T23:49:38.244Z"
+    },
+    {
+        "id": "nDIcDB6z6Y",
+        "customer_name": "Neha Nair",
+        "customer_email": "neha.nair61@example.com",
+        "amount": 13180,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-23T15:03:07.035Z"
+    },
+    {
+        "id": "7kcGzWbYeF",
+        "customer_name": "Sneha Iyer",
+        "customer_email": "sneha.iyer60@example.com",
+        "amount": 3690,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-24T00:12:09.872Z"
+    },
+    {
+        "id": "crHw9MzOA4",
+        "customer_name": "Arjun Chatterjee",
+        "customer_email": "arjun.chatterjee33@example.com",
+        "amount": 2080,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-23T01:18:48.226Z"
+    },
+    {
+        "id": "AB86h3K1kr",
+        "customer_name": "Karthik Menon",
+        "customer_email": "karthik.menon16@example.com",
+        "amount": 10730,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-24T00:01:26.663Z"
+    },
+    {
+        "id": "CbCnkvX4qI",
+        "customer_name": "Shreya Kapoor",
+        "customer_email": "shreya.kapoor23@example.com",
+        "amount": 5050,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-23T01:33:12.262Z"
+    },
+    {
+        "id": "ALq0ggbUgZ",
+        "customer_name": "Rohan Gupta",
+        "customer_email": "rohan.gupta61@example.com",
+        "amount": 4000,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-24T14:08:57.125Z"
+    },
+    {
+        "id": "uClXQVEfxm",
+        "customer_name": "Ananya Chatterjee",
+        "customer_email": "ananya.chatterjee37@example.com",
+        "amount": 3390,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-23T17:13:21.041Z"
+    },
+    {
+        "id": "coNAE75F73",
+        "customer_name": "Aryan Joshi",
+        "customer_email": "aryan.joshi70@example.com",
+        "amount": 270,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-24T19:53:00.765Z"
+    },
+    {
+        "id": "g4VraTBL40",
+        "customer_name": "Varun Rao",
+        "customer_email": "varun.rao32@example.com",
+        "amount": 2330,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-26T05:16:56.185Z"
+    },
+    {
+        "id": "CfE1S3weF6",
+        "customer_name": "Rahul Kapoor",
+        "customer_email": "rahul.kapoor73@example.com",
+        "amount": 1030,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-24T23:51:15.419Z"
+    },
+    {
+        "id": "gpCRPq_Vln",
+        "customer_name": "Isha Verma",
+        "customer_email": "isha.verma39@example.com",
+        "amount": 1480,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-25T18:52:29.456Z"
+    },
+    {
+        "id": "jIId30gVRK",
+        "customer_name": "Ananya Joshi",
+        "customer_email": "ananya.joshi16@example.com",
+        "amount": 3200,
+        "failure_reason_raw": "card_declined_bank",
+        "status": "at_risk",
+        "created_at": "2026-08-25T08:46:06.591Z"
+    },
+    {
+        "id": "mQfXlsqNev",
+        "customer_name": "Nikhil Gupta",
+        "customer_email": "nikhil.gupta91@example.com",
+        "amount": 690,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-23T01:33:43.446Z"
+    },
+    {
+        "id": "bYV_Q_uyaa",
+        "customer_name": "Sneha Sharma",
+        "customer_email": "sneha.sharma45@example.com",
+        "amount": 600,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-23T01:46:34.029Z"
+    },
+    {
+        "id": "jwV6V7GAVv",
+        "customer_name": "Riya Iyer",
+        "customer_email": "riya.iyer2@example.com",
+        "amount": 2280,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-25T11:24:40.634Z"
+    },
+    {
+        "id": "CdhOF1tOBJ",
+        "customer_name": "Simran Patel",
+        "customer_email": "simran.patel72@example.com",
+        "amount": 690,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-22T20:55:52.378Z"
+    },
+    {
+        "id": "8lxIm0H6lr",
+        "customer_name": "Manav Verma",
+        "customer_email": "manav.verma16@example.com",
+        "amount": 1620,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-24T20:32:55.859Z"
+    },
+    {
+        "id": "CAI1PhHsRY",
+        "customer_name": "Ananya Reddy",
+        "customer_email": "ananya.reddy1@example.com",
+        "amount": 1530,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-25T12:23:39.959Z"
+    },
+    {
+        "id": "pkYQbuTalV",
+        "customer_name": "Aarav Joshi",
+        "customer_email": "aarav.joshi76@example.com",
+        "amount": 390,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-26T08:15:46.242Z"
+    },
+    {
+        "id": "tpdEZy-wdC",
+        "customer_name": "Pooja Menon",
+        "customer_email": "pooja.menon74@example.com",
+        "amount": 570,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-23T05:48:38.653Z"
+    },
+    {
+        "id": "qIfpGl9ADj",
+        "customer_name": "Tanvi Desai",
+        "customer_email": "tanvi.desai15@example.com",
+        "amount": 570,
+        "failure_reason_raw": "card_declined_bank",
+        "status": "at_risk",
+        "created_at": "2026-08-25T18:49:43.016Z"
+    },
+    {
+        "id": "pkX0OovoJA",
+        "customer_name": "Divya Kapoor",
+        "customer_email": "divya.kapoor11@example.com",
+        "amount": 2820,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-23T22:25:01.191Z"
+    },
+    {
+        "id": "tA1b35ygSc",
+        "customer_name": "Shreya Gupta",
+        "customer_email": "shreya.gupta41@example.com",
+        "amount": 730,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-25T14:57:00.294Z"
+    },
+    {
+        "id": "uwkatgftXf",
+        "customer_name": "Arjun Patel",
+        "customer_email": "arjun.patel78@example.com",
+        "amount": 3350,
+        "failure_reason_raw": "expired_card",
+        "status": "at_risk",
+        "created_at": "2026-08-25T03:16:04.821Z"
+    },
+    {
+        "id": "F-0AI2G8bK",
+        "customer_name": "Divya Iyer",
+        "customer_email": "divya.iyer87@example.com",
+        "amount": 8340,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-23T12:26:39.635Z"
+    },
+    {
+        "id": "DcnogDMcw-",
+        "customer_name": "Simran Reddy",
+        "customer_email": "simran.reddy27@example.com",
+        "amount": 24590,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-23T03:32:34.921Z"
+    },
+    {
+        "id": "7qZ2wSJ9g3",
+        "customer_name": "Rahul Menon",
+        "customer_email": "rahul.menon72@example.com",
+        "amount": 700,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-23T13:56:59.011Z"
+    },
+    {
+        "id": "_M5-pUIPAQ",
+        "customer_name": "Vikram Joshi",
+        "customer_email": "vikram.joshi24@example.com",
+        "amount": 990,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-23T02:49:39.289Z"
+    },
+    {
+        "id": "KkeRj6Lkk0",
+        "customer_name": "Varun Gupta",
+        "customer_email": "varun.gupta33@example.com",
+        "amount": 2190,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-22T19:34:33.797Z"
+    },
+    {
+        "id": "_CGgQJMz-7",
+        "customer_name": "Aarav Patel",
+        "customer_email": "aarav.patel6@example.com",
+        "amount": 970,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-26T07:58:00.547Z"
+    },
+    {
+        "id": "jixy1dZFv4",
+        "customer_name": "Neha Verma",
+        "customer_email": "neha.verma45@example.com",
+        "amount": 750,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-25T01:40:05.468Z"
+    },
+    {
+        "id": "md6DVspcx3",
+        "customer_name": "Sneha Joshi",
+        "customer_email": "sneha.joshi74@example.com",
+        "amount": 13570,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-26T08:58:18.940Z"
+    },
+    {
+        "id": "Ukb61-edOm",
+        "customer_name": "Priya Bose",
+        "customer_email": "priya.bose59@example.com",
+        "amount": 1820,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-22T19:21:13.383Z"
+    },
+    {
+        "id": "y0z-WlZimY",
+        "customer_name": "Kavya Rao",
+        "customer_email": "kavya.rao16@example.com",
+        "amount": 960,
+        "failure_reason_raw": "otp_timeout",
+        "status": "at_risk",
+        "created_at": "2026-08-23T15:35:19.036Z"
+    },
+    {
+        "id": "nkGxbieftR",
+        "customer_name": "Yash Desai",
+        "customer_email": "yash.desai37@example.com",
+        "amount": 220,
+        "failure_reason_raw": "user_abandoned_price",
+        "status": "at_risk",
+        "created_at": "2026-08-24T08:02:05.969Z"
+    },
+    {
+        "id": "FsKb32dikP",
+        "customer_name": "Sneha Bose",
+        "customer_email": "sneha.bose90@example.com",
+        "amount": 2890,
+        "failure_reason_raw": "duplicate_attempt",
+        "status": "at_risk",
+        "created_at": "2026-08-25T04:23:17.259Z"
+    },
+    {
+        "id": "JsJ76Hmi46",
+        "customer_name": "Kabir Kapoor",
+        "customer_email": "kabir.kapoor51@example.com",
+        "amount": 710,
+        "failure_reason_raw": "expired_card",
+        "status": "at_risk",
+        "created_at": "2026-08-24T11:37:36.074Z"
+    },
+    {
+        "id": "rkme2riYMw",
+        "customer_name": "Divya Bose",
+        "customer_email": "divya.bose80@example.com",
+        "amount": 4010,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-25T18:01:31.999Z"
+    },
+    {
+        "id": "Wx_9d2OB3b",
+        "customer_name": "Anjali Pillai",
+        "customer_email": "anjali.pillai91@example.com",
+        "amount": 230,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-26T01:59:50.390Z"
+    },
+    {
+        "id": "xHeNyOIlSN",
+        "customer_name": "Arjun Reddy",
+        "customer_email": "arjun.reddy98@example.com",
+        "amount": 1230,
+        "failure_reason_raw": "network_drop",
+        "status": "at_risk",
+        "created_at": "2026-08-23T19:14:25.268Z"
+    },
+    {
+        "id": "N0AG98OTN9",
+        "customer_name": "Arjun Nair",
+        "customer_email": "arjun.nair47@example.com",
+        "amount": 1930,
+        "failure_reason_raw": "user_abandoned_browsing",
+        "status": "at_risk",
+        "created_at": "2026-08-26T11:14:32.355Z"
+    },
+    {
+        "id": "3HFnYPrKKl",
+        "customer_name": "Riya Desai",
+        "customer_email": "riya.desai33@example.com",
+        "amount": 980,
+        "failure_reason_raw": "expired_card",
+        "status": "at_risk",
+        "created_at": "2026-08-23T08:00:11.369Z"
+    },
+    {
+        "id": "_cI5V5xI0H",
+        "customer_name": "Aarav Verma",
+        "customer_email": "aarav.verma9@example.com",
+        "amount": 3860,
+        "failure_reason_raw": "insufficient_funds",
+        "status": "at_risk",
+        "created_at": "2026-08-23T13:09:41.968Z"
+    }
+]
