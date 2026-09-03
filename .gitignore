@@ -17,8 +17,11 @@ npm-debug.log*
 
 # Database
 *.db
-*.sqlite
-*.sqlite3
+*.db-*
+*.sqlite*
+*.sqlite3*
+backend/data/*.db*
+
 
 # OS / editor
 .DS_Store
