@@ -286,6 +286,8 @@ async function runGeminiAgent(transaction, onStep, modelId) {
   const genAI       = _getGenAI();
   const geminiTools = _getGeminiTools();
   const db          = getDb();
+  const modelLabel  = labelOf(modelId);
+
 
   const model = genAI.getGenerativeModel({
     model: modelId,
@@ -327,7 +329,7 @@ async function runGeminiAgent(transaction, onStep, modelId) {
       if (name === 'diagnose_failure') {
         result = TOOLS.diagnose_failure(args, transaction);
         diagnosisReasoning = args.reasoning || '';
-        onStep && onStep({ type: 'step', step: 'diagnosed', data: args });
+        onStep && onStep({ type: 'step', step: 'diagnosed', data: { ...args, model: modelId, modelLabel } });
 
       } else if (['send_recovery_nudge', 'offer_discount', 'escalate'].includes(name)) {
         // ── Stage 2: ACTION GUARDRAILS (Before Tool Execution) ─────────────
@@ -494,7 +496,10 @@ async function processTransaction(transaction, onStep) {
   } catch (_) {}
 
   const useGemini = GoogleGenerativeAI && process.env.GEMINI_API_KEY?.trim().length > 5;
-  if (!useGemini) return runMockAgent(transaction, onStep);
+  if (!useGemini) {
+    onStep && onStep({ type: 'step', step: 'model_used', data: { model: 'mock', modelLabel: 'Mock Agent (rule-based)' } });
+    return runMockAgent(transaction, onStep);
+  }
 
   // ── Rate-limit-aware model cascade ───────────────────────────────────────────
   // Thresholds
@@ -550,6 +555,7 @@ async function processTransaction(transaction, onStep) {
       prevModel = modelId;
 
       try {
+        onStep && onStep({ type: 'step', step: 'model_used', data: { model: modelId, modelLabel } });
         const result = await runGeminiAgent(transaction, onStep, modelId);
         // Log when a non-primary model handled the transaction
         if (modelId !== MODEL_CHAIN[0].id) {

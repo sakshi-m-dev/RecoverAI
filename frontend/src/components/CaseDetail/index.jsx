@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import axios from 'axios'
 import StatusBadge from '../shared/StatusBadge'
 import AgentDecisionPanel from '../shared/AgentDecisionPanel'
+import AgentTimeline from '../shared/AgentTimeline'
 import {
   CreditCardIcon,
   SearchIcon,
@@ -34,38 +35,13 @@ const SCENARIO_LABELS = {
   subscription_failure: 'Subscription Renewal Failure',
 }
 
-function getEventIcon(eventType) {
-  switch (eventType) {
-    case 'payment_failed':      return <CreditCardIcon className="w-4 h-4 text-at-risk" />
-    case 'agent_diagnosis':     return <SearchIcon className="w-4 h-4 text-gold" />
-    case 'nudge_sent':          return <MailIcon className="w-4 h-4 text-gold" />
-    case 'discount_offered':    return <TagIcon className="w-4 h-4 text-gold" />
-    case 'case_escalated':      return <UserIcon className="w-4 h-4 text-escalated" />
-    case 'case_recovered':      return <SparklesIcon className="w-4 h-4 text-recovered" />
-    case 'case_failed':         return <XIcon className="w-4 h-4 text-failed" />
-    case 'guardrail_triggered': return <ShieldIcon className="w-4 h-4 text-at-risk" />
-    case 'guardrail_passed':    return <CheckIcon className="w-4 h-4 text-recovered" />
-    default:                    return <AlertIcon className="w-4 h-4 text-text-muted" />
-  }
-}
-
-// Map event_type prefix/key to a phase label
-const PHASE_LABEL = {
-  payment_failed:     'DETECT',
-  agent_diagnosis:    'DIAGNOSE',
-  guardrail_triggered:'GUARDRAIL',
-  guardrail_passed:   'GUARDRAIL',
-  nudge_sent:         'ACT',
-  discount_offered:   'ACT',
-  case_escalated:     'ESCALATE',
-  case_recovered:     'VERIFY',
-  case_failed:        'VERIFY',
-}
-
 export default function CaseDetail() {
   const { id } = useParams()
-  const [data, setData]       = useState(null)
-  const [loading, setLoading] = useState(true)
+  const [data, setData]           = useState(null)
+  const [loading, setLoading]     = useState(true)
+  const [trace, setTrace]         = useState(null)
+  const [traceLoading, setTL]     = useState(false)
+  const [traceError, setTE]       = useState(null)
 
   useEffect(() => {
     axios.get(`/api/transactions/${id}`)
@@ -73,6 +49,18 @@ export default function CaseDetail() {
       .catch(console.error)
       .finally(() => setLoading(false))
   }, [id])
+
+  // Fetch trace only for processed cases
+  useEffect(() => {
+    if (!data) return
+    const tx = data.transaction
+    if (tx.status === 'at_risk') return   // not yet processed
+    setTL(true)
+    axios.get(`/api/agent/trace/${id}`)
+      .then(r => setTrace(r.data.timeline))
+      .catch(e  => setTE(e.response?.data?.error || e.message))
+      .finally(() => setTL(false))
+  }, [data, id])
 
   if (loading) return (
     <div className="min-h-screen hero-gradient flex items-center justify-center">
@@ -161,6 +149,22 @@ export default function CaseDetail() {
           </motion.div>
         )}
 
+        {/* ── Agent Execution Timeline ───────────────────────────────── */}
+        {(decision || tx.status !== 'at_risk') && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.18 }}
+            className="mb-6"
+          >
+            <AgentTimeline
+              timeline={trace}
+              isLoading={traceLoading}
+              error={traceError}
+            />
+          </motion.div>
+        )}
+
         {/* ── Payment link ──────────────────────────────────────────── */}
         {tx.payment_link && (
           <motion.div
@@ -177,56 +181,6 @@ export default function CaseDetail() {
             >
               Open →
             </a>
-          </motion.div>
-        )}
-
-        {/* ── Audit timeline ────────────────────────────────────────── */}
-        {audit_log.length > 0 && (
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.35 }}
-            className="mb-8"
-          >
-            <div className="section-label mb-5">Audit Timeline</div>
-            <div className="space-y-0">
-              {audit_log.map((event, i) => {
-                const phase = PHASE_LABEL[event.event_type]
-                return (
-                  <motion.div
-                    key={event.id}
-                    initial={{ opacity: 0, x: -10 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.35 + i * 0.06 }}
-                    className="flex gap-4 pb-5 relative"
-                  >
-                    {/* Connector line */}
-                    {i < audit_log.length - 1 && (
-                      <div className="absolute left-4 top-8 bottom-0 w-px bg-white/[0.05]" />
-                    )}
-                    {/* Icon node */}
-                    <div className="shrink-0 w-8 h-8 rounded-full bg-bg-card border border-white/[0.08] flex items-center justify-center text-sm z-10">
-                      {getEventIcon(event.event_type)}
-                    </div>
-                    {/* Content */}
-                    <div className="flex-1 pt-0.5">
-                      <div className="flex items-center gap-2 mb-1.5 flex-wrap">
-                        {phase && (
-                          <span className="text-[9px] font-bold tracking-[0.2em] uppercase text-gold/70 bg-gold/[0.07] px-1.5 py-0.5 rounded">
-                            {phase}
-                          </span>
-                        )}
-                        <span className="text-[10px] font-semibold tracking-[0.12em] uppercase text-text-muted">
-                          {event.event_type.replace(/_/g, ' ')}
-                        </span>
-                        <span className="text-[10px] text-text-muted ml-auto">{fmtTime(event.timestamp)}</span>
-                      </div>
-                      <p className="text-sm text-text-secondary leading-relaxed">{event.event_detail}</p>
-                    </div>
-                  </motion.div>
-                )
-              })}
-            </div>
           </motion.div>
         )}
 

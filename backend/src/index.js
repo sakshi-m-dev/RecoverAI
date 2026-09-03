@@ -4,8 +4,10 @@ const cors = require('cors');
 
 const { createSchema } = require('./db/schema');
 const transactionsRouter = require('./routes/transactions');
-const agentRouter = require('./routes/agent');
-const razorpayRouter = require('./routes/razorpay');
+const agentRouter        = require('./routes/agent');
+const razorpayRouter     = require('./routes/razorpay');
+const traceRouter        = require('./routes/trace');
+
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -23,8 +25,10 @@ createSchema();
 
 // ── Routes ────────────────────────────────────────────────────────────────────
 app.use('/api/transactions', transactionsRouter);
-app.use('/api/agent', agentRouter);
-app.use('/api/razorpay', razorpayRouter);
+app.use('/api/agent',        agentRouter);
+app.use('/api/agent/trace',  traceRouter);
+app.use('/api/razorpay',     razorpayRouter);
+
 
 // ── Health ────────────────────────────────────────────────────────────────────
 app.get('/api/health', (_req, res) => {

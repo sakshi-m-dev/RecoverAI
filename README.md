@@ -1,11 +1,11 @@
-# RecoverAI 
+# RecoverAI ⚡
 
 > **Autonomous Revenue Recovery Agent for Indian Fintech & SaaS**  
 > Diagnoses payment failures, enforces deterministic policy guardrails, executes context-aware recovery nudges, and verifies revenue recovery in real-time.
 
 ---
 
-## Problem Statement
+## 📌 Problem Statement
 
 Payment failures in Indian fintech and digital commerce (UPI timeouts, card declines, OTP expiries, and bank gateway drops) result in **billions in lost revenue annually**. Traditional recovery systems rely on blunt, automated retry spam that alienates customers and risks compliance breaches.
 
@@ -18,7 +18,7 @@ Payment failures in Indian fintech and digital commerce (UPI timeouts, card decl
 
 ---
 
-##  Architecture & Pipeline
+## 🏗️ Architecture & Pipeline
 
 ```
   ┌───────────────────────────────────────────────────────────────┐
@@ -93,7 +93,7 @@ Payment failures in Indian fintech and digital commerce (UPI timeouts, card decl
 
 ---
 
-##  Core Capabilities
+## 🔑 Core Capabilities
 
 ### 1. Two-Stage Deterministic Guardrails
 - **Stage 1 (Pre-Check)**: Blocks high-value transactions (> ₹25,000) and extreme-risk cases (≥ 85) before any LLM invocation, saving token quota and eliminating autonomous financial risk.
@@ -114,7 +114,7 @@ Payment failures in Indian fintech and digital commerce (UPI timeouts, card decl
 
 ---
 
-##  Tech Stack
+## 💻 Tech Stack
 
 - **Frontend**: React 18, Vite, TailwindCSS, Framer Motion, Axios, Lucide Icons
 - **Backend**: Node.js, Express, Better-SQLite3, SSE (Server-Sent Events)
@@ -123,7 +123,7 @@ Payment failures in Indian fintech and digital commerce (UPI timeouts, card decl
 
 ---
 
-##  Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 - Node.js (v18.0.0 or higher)
@@ -184,7 +184,7 @@ Payment failures in Indian fintech and digital commerce (UPI timeouts, card decl
 
 ---
 
-##  Testing & Verification
+## 🧪 Testing & Verification
 
 Run the automated test suite verifying all 10 architectural and policy guarantees:
 ```bash
@@ -205,7 +205,7 @@ cd backend && node test-verification.js
 
 ---
 
-##  API Endpoints
+## 📡 API Endpoints
 
 ### Agent Operations
 - `GET /api/agent/batch/stream` — SSE endpoint streaming live batch execution with stage updates
@@ -222,7 +222,7 @@ cd backend && node test-verification.js
 
 ---
 
-##  Security & Compliance
+## 🔒 Security & Compliance
 
 - **Key Isolation**: `GEMINI_API_KEY` and Razorpay secrets are kept strictly server-side and never exposed to the client.
 - **Deterministic Control**: The LLM cannot override guardrails, skip verification, or modify database status directly.
@@ -230,5 +230,5 @@ cd backend && node test-verification.js
 
 ---
 
-##  License
+## 📄 License
 MIT License. Created by [Sakshi](https://github.com/sakshi-m-dev).
