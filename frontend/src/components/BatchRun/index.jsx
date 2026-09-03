@@ -109,7 +109,7 @@ export default function BatchRun() {
 
         {/* Header */}
         <motion.div initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }}>
-          <Link to="/" className="inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-gold transition-colors mb-6">← Dashboard</Link>
+          <Link to="/dashboard" className="inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-gold transition-colors mb-6">← Dashboard</Link>
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
             <div>
               <div className="section-label mb-2">Agent Operation</div>
@@ -264,7 +264,7 @@ export default function BatchRun() {
             </div>
             <div className="flex flex-col sm:flex-row gap-3 justify-center mt-4">
               <button onClick={reset} className="btn-ghost text-xs">Reset &amp; Run Again</button>
-              <Link to="/" className="btn-ghost text-center text-xs text-text-muted hover:text-gold">Back to Dashboard →</Link>
+              <Link to="/dashboard" className="btn-ghost text-center text-xs text-text-muted hover:text-gold">Back to Dashboard →</Link>
             </div>
           </motion.div>
         )}

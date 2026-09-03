@@ -2,8 +2,9 @@ import { Link, useLocation } from 'react-router-dom'
 import { useBatch } from '../../context/BatchContext'
 
 const NAV_LINKS = [
-  { href: '/',      label: 'Dashboard' },
-  { href: '/batch', label: 'Batch Run' },
+  { href: '/',          label: 'Overview' },
+  { href: '/dashboard', label: 'Dashboard' },
+  { href: '/batch',     label: 'Batch Run' },
 ]
 
 export default function Navbar() {

@@ -75,7 +75,7 @@ export default function CaseDetail() {
           <SearchIcon className="w-5 h-5" />
         </div>
         <div className="text-text-muted">Case not found.</div>
-        <Link to="/" className="mt-4 inline-block text-gold text-sm hover:underline">← Back</Link>
+        <Link to="/dashboard" className="mt-4 inline-block text-gold text-sm hover:underline">← Back</Link>
       </div>
     </div>
   )
@@ -88,7 +88,7 @@ export default function CaseDetail() {
       <div className="max-w-2xl mx-auto px-6 py-8">
 
         {/* Back */}
-        <Link to="/" className="inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-gold transition-colors mb-8">
+        <Link to="/dashboard" className="inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-gold transition-colors mb-8">
           ← Back to Dashboard
         </Link>
 

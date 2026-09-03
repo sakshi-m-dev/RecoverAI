@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/shared/Navbar'
+import LandingPage from './components/LandingPage'
 import Dashboard from './components/Dashboard'
 import CaseDetail from './components/CaseDetail'
 import BatchRun from './components/BatchRun'
@@ -13,9 +14,10 @@ function App() {
           <Navbar />
           <main>
             <Routes>
-              <Route path="/"         element={<Dashboard />} />
-              <Route path="/case/:id" element={<CaseDetail />} />
-              <Route path="/batch"    element={<BatchRun />} />
+              <Route path="/"          element={<LandingPage />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/case/:id"  element={<CaseDetail />} />
+              <Route path="/batch"     element={<BatchRun />} />
             </Routes>
           </main>
         </div>
